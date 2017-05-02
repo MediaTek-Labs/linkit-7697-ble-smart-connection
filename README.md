@@ -30,9 +30,9 @@ Additinal resource can be found at https://docs.labs.mediatek.com/resource/mt768
 
 ### Phaese
 
-A. Turn on Device, when it is ready, it will start "BLE Advertising" (appear as BLE_SMTCN)
-B. Launch Android App, Scan and connects to BLE_SMTCN Device. After connected mobile will automatically send pre-defined Wi-Fi information to Device via BLE
-C. When Device receive the data, it will connect to Wi-Fi network and report back the SSID and IP to Mobile
+* A. Turn on Device, when it is ready, it will start "BLE Advertising" (appear as BLE_SMTCN)
+* B. Launch Android App, Scan and connects to BLE_SMTCN Device. After connected mobile will automatically send pre-defined Wi-Fi information to Device via BLE
+* C. When Device receive the data, it will connect to Wi-Fi network and report back the SSID and IP to Mobile
 
 ### Mobile Side
 
