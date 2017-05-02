@@ -28,7 +28,7 @@ Additinal resource can be found at https://docs.labs.mediatek.com/resource/mt768
 
 ## How to Run
 
-### Phaese
+### Phases
 
 * A. Turn on Device, when it is ready, it will start "BLE Advertising" (appear as BLE_SMTCN)
 * B. Launch Android App, Scan and connects to BLE_SMTCN Device. After connected mobile will automatically send pre-defined Wi-Fi information to Device via BLE
