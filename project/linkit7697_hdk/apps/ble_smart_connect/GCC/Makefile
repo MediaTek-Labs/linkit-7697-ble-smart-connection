@@ -73,7 +73,7 @@ endif
 # Board Config
 -include $(SOURCE_DIR)/config/board/$(BOARD_CONFIG)/board.mk
 # EPT Config
--include $(SOURCE_DIR)/driver/board/mt76x7_hdk/ept/module.mk
+-include $(SOURCE_DIR)/driver/board/linkit7697_hdk/ept/module.mk
 
 # RTOS source files
 include $(SOURCE_DIR)/kernel/rtos/FreeRTOS/module.mk
@@ -104,7 +104,7 @@ include $(SOURCE_DIR)/middleware/third_party/lwip/module.mk
 include $(SOURCE_DIR)/middleware/third_party/dhcpd/module.mk
 
 # wifi src
-include $(SOURCE_DIR)/driver/board/mt76x7_hdk/wifi/module.mk
+include $(SOURCE_DIR)/driver/board/linkit7697_hdk/wifi/module.mk
 
 # Main APP files
 APP_PATH        = $(patsubst $(SDK_PATH)/%,%,$(abspath $(dir $(PWD))))
@@ -135,11 +135,11 @@ CFLAGS += -DMTK_FW_VERSION=\"$(MTK_FW_VERSION)\"
 # include path
 CFLAGS += -I$(SOURCE_DIR)/driver/chip/mt7687/inc
 CFLAGS += -I$(SOURCE_DIR)/driver/chip/inc
-CFLAGS += -I$(SOURCE_DIR)/driver/board/mt76x7_hdk/wifi/inc
+CFLAGS += -I$(SOURCE_DIR)/driver/board/linkit7697_hdk/wifi/inc
 CFLAGS += -I$(SOURCE_DIR)/$(APP_PATH)/inc
 CFLAGS += -I$(SOURCE_DIR)/driver/CMSIS/Include
 CFLAGS += -I$(SOURCE_DIR)/driver/CMSIS/Device/MTK/mt7687/Include
-CFLAGS += -I$(SOURCE_DIR)/driver/board/mt76x7_hdk/ept/inc
+CFLAGS += -I$(SOURCE_DIR)/driver/board/linkit7697_hdk/ept/inc
 
 # BLE include path
 CFLAGS += -D__BT_DEBUG__

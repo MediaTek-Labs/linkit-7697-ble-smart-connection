@@ -30,7 +30,7 @@ DATA.LOAD.ELF V:\geneva_git\gva\out\mt7697_iot_sdk_xip.elf /nocode
 
 y.spath kernel/rtos/FreeRTOS/Source/
 y.spath driver/chip/mt7687/src/
-y.spath project/mt7697_hdk/apps/iot_sdk/
+y.spath project/linkit7697_hdk/apps/iot_sdk/
 
 d.l
 

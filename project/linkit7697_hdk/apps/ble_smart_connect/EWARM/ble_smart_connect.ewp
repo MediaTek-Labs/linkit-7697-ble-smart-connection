@@ -332,7 +332,7 @@
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\third_party\lwip\ports\include</state>
           <state>$PROJ_DIR$\..\..\..\..\..\driver\chip\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\inc</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\wifi\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\third_party\dhcpd\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\minicli\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\minisupp\inc</state>
@@ -348,14 +348,14 @@
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\iperf\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\project\linkit7697_hdk\apps\ble_smart_connect\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\inc</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\util\inc</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\util\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\wifi\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\bluetooth\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\ble_smtcn\inc</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\ept\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\ept\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\third_party\mbedtls\include</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\third_party\mbedtls\configs</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\external_flash\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\external_flash\inc</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -2014,43 +2014,43 @@
   <group>
     <name>bsp</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\ept\src\bsp_gpio_ept_config.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\ept\src\bsp_gpio_ept_config.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\get_profile_string.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\wifi\src\get_profile_string.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\lib\libwifi_CM4_IAR.a</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\lib\libwifi_CM4_IAR.a</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_os_api.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\wifi\src\wifi_os_api.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\misc.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\wifi\src\misc.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\os_util.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\wifi\src\os_util.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\os_utils.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\wifi\src\os_utils.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_channel.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\wifi\src\wifi_channel.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_default_config.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\wifi\src\wifi_default_config.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_inband_cli.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\wifi\src\wifi_inband_cli.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_init.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\wifi\src\wifi_init.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_profile.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\wifi\src\wifi_profile.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_wps.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\wifi\src\wifi_wps.c</name>
     </file>
   </group>
   <group>
@@ -2077,7 +2077,7 @@
   <group>
     <name>driver</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\external_flash\src\bsp_flash_config.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\external_flash\src\bsp_flash_config.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\src\sdio_gen3\connsys_bus.c</name>
