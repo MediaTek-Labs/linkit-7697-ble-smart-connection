@@ -1,5 +1,8 @@
 # Linkit 7697 BLE smart connection
+
 How to use BLE to do smart connection on LinkIt 7697 HDK
+
+Additinal resource can be found at https://docs.labs.mediatek.com/resource/mt7687-mt7697
 
 ## Folder Structure
 
