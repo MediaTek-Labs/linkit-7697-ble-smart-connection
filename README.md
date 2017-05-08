@@ -1,4 +1,4 @@
-# Linkit 7697 BLE smart connection
+# LinkIt 7697 BLE smart connection
 
 How to use BLE to do smart connection on LinkIt 7697 HDK
 
