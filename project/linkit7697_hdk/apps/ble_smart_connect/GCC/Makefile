@@ -89,9 +89,11 @@ include $(SOURCE_DIR)/middleware/MTK/nvdm/module.mk
 
 
 # Minisupp Config
--include $(SOURCE_DIR)/middleware/MTK/minisupp/module.mk
-
-
+ifneq ($(wildcard $(strip $(SOURCE_DIR))/middleware/MTK/minisupp/),)
+include $(SOURCE_DIR)/middleware/MTK/minisupp/module.mk
+else
+include $(SOURCE_DIR)/prebuilt/middleware/MTK/minisupp/module.mk
+endif
 
 
 
@@ -101,10 +103,12 @@ include $(SOURCE_DIR)/middleware/MTK/nvdm/module.mk
 include $(SOURCE_DIR)/middleware/third_party/lwip/module.mk
 
 #include dhcpd
-include $(SOURCE_DIR)/middleware/third_party/dhcpd/module.mk
+include $(SOURCE_DIR)/middleware/MTK/dhcpd/module.mk
 
-# wifi src
-include $(SOURCE_DIR)/driver/board/linkit7697_hdk/wifi/module.mk
+#include wifi
+include $(SOURCE_DIR)/middleware/MTK/wifi_service/combo/module.mk
+#connsys_module
+include $(SOURCE_DIR)/middleware/MTK/connsys/module.mk
 
 # Main APP files
 APP_PATH        = $(patsubst $(SDK_PATH)/%,%,$(abspath $(dir $(PWD))))
@@ -135,7 +139,6 @@ CFLAGS += -DMTK_FW_VERSION=\"$(MTK_FW_VERSION)\"
 # include path
 CFLAGS += -I$(SOURCE_DIR)/driver/chip/mt7687/inc
 CFLAGS += -I$(SOURCE_DIR)/driver/chip/inc
-CFLAGS += -I$(SOURCE_DIR)/driver/board/linkit7697_hdk/wifi/inc
 CFLAGS += -I$(SOURCE_DIR)/$(APP_PATH)/inc
 CFLAGS += -I$(SOURCE_DIR)/driver/CMSIS/Include
 CFLAGS += -I$(SOURCE_DIR)/driver/CMSIS/Device/MTK/mt7687/Include
