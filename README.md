@@ -15,8 +15,8 @@ Additinal resource can be found at https://docs.labs.mediatek.com/resource/mt768
 
 * Put/Extract the files into SDK root, so that there is `[SDK_root]/project/linkit7697_hdk/apps/ble_smart_connect`
 * Execute `./build.sh linkit7697_hdk ble_smart_connect` under Linux enviornment
-* Check generated bin at `[SDK_root]/out/linkit7697_hdk/ble_smart_connect/GCC/ble_smart_connect.bin`
-* Use Flashtool to download `[SDK_root]/out/linkit7697_hdk/ble_smart_connect/GCC/flash_download.ini` into LinkIt 7697 HDK
+* Check generated bin at `[SDK_root]/out/linkit7697_hdk/ble_smart_connect/GCC/build/ble_smart_connect.bin`
+* Use Flashtool to download `[SDK_root]/out/linkit7697_hdk/ble_smart_connect/GCC/build/flash_download.ini` into LinkIt 7697 HDK
 
 ### Mobile Side
 
