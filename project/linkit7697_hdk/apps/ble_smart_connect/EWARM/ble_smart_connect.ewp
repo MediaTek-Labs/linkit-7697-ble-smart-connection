@@ -181,18 +181,20 @@
         <debug>1</debug>
         <option>
           <name>CCDefines</name>
-          <state>MTK_MINISUPP_ENABLE</state>
+          <state>PRODUCT_VERSION=7697</state>
+          <state>MTK_FLASH_DIRECT_DL</state>
+          <state>MTK_PATCH_DL_ENABLE</state>
           <state>MTK_BSPEXT_ENABLE</state>
           <state>MTK_LWIP_ENABLE</state>
-          <state>PRODUCT_VERSION=7697</state>
           <state>MTK_WIFI_TGN_VERIFY_ENABLE</state>
           <state>MTK_WIFI_REPEATER_ENABLE</state>
           <state>MTK_DEBUG_LEVEL_INFO</state>
           <state>MTK_HCI_CONSOLE_MIX_ENABLE</state>
           <state>__BT_DEBUG__</state>
+          <state>MTK_MINISUPP_ENABLE</state>
+          <state>USE_HAL_DRIVER</state>
+          <state>MTK_EXTERNAL_FLASH_ENABLE</state>
           <state>MTK_NVDM_ENABLE</state>
-          <state>MTK_WIFI_PRIVILEGE_ENABLE</state>
-          <state>MBEDTLS_CONFIG_FILE=&lt;config-mtk-md5.h&gt;</state>
         </option>
         <option>
           <name>CCPreprocFile</name>
