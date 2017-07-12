@@ -146,7 +146,9 @@ static void bt_preread_local_address(bt_bd_addr_t addr)
             }
             LOG_I(common, "[BT]generate_random_address--trn: 0x%x", random_seed);
             addr[4] = random_seed & 0xFF;
-            addr[5] = (random_seed >> 8) & 0xCF;
+            addr[5] = (random_seed >> 8) | 0xC0;  // This address is random generated, so assign 0x11 => Static Random Address
+                                                  // Note that the user should use this address as a random address,
+                                                  // not a public address.
             hal_trng_deinit();
         }
     }
