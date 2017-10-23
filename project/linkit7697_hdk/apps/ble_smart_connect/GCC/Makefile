@@ -123,6 +123,7 @@ APP_FILES += $(APP_PATH_SRC)/ept_eint_var.c
 APP_FILES += $(APP_PATH_SRC)/system_mt7687.c
 APP_FILES += $(APP_PATH_SRC)/sys_init.c
 APP_FILES += $(APP_PATH)/GCC/syscalls.c
+APP_FILES += $(APP_PATH_SRC)/regions_init.c
 
 APP_FILES += $(APP_PATH_SRC)/bt_hci_log_uart.c
 APP_FILES += $(APP_PATH_SRC)/bt_init.c
